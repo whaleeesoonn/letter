@@ -1,0 +1,22 @@
+:root {
+  --bg1: #0b1530;
+  --bg2: #1d3557;
+  --bg3: #a8c8e8;
+  --paper: #f7fbff;
+  --ink: #27405f;
+  --accent: #6f9fd0;
+  --seal: #9bc3e6;
+  --script: 'Great Vibes', 'Snell Roundhand', 'Brush Script MT', cursive;
+  --serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; }
+body {
+  background: linear-gradient(180deg, var(--bg1) 0%, var(--bg2) 60%, var(--bg3) 100%) fixed;
+  font-family: var(--serif);
+  color: var(--ink);
+  overflow-x: hidden;
+}
